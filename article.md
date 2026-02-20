@@ -304,14 +304,14 @@ df = pd.read_excel("./data/Table 4. Evidence log sample rows.xlsx")
 df
 ```
 
-```python tags=["figure-Spatial-Precision-rubic-*", "hermeneutics"]
+```python tags=["figure-Spatial-Precision-Rubric-*", "hermeneutics"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Spatial Precision Rubric"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -418,14 +418,14 @@ In addition to address-based records, the project incorporates a participant-gen
 Interview transcripts were segmented into discrete episodes and coded for recurring spatial practices and tactics, including access strategies, comfort calibration, risk management, and recognition cues. Cross-case comparison was conducted at the episode level to identify both recurring motifs and context-specific practices. Sketch maps were treated as image-based corroboration rather than coordinate evidence. Drawings were digitized and overlaid at a broad, non-precise scale to surface shared emphases and relational clusters. These materials are read in parallel with the address-based corpus, providing a second register of evidence that foregrounds lived spatial knowledge, memory, and tactic, without requiring that such knowledge be stabilized as an addressable site.
 <!-- #endregion -->
 
-```python tags=["figure-overlay-montage-of-sketch-map-layers-*"]
+```python tags=["figure-Overlay-montage-of-sketch-map-layers-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Overlay montage of sketch-map layers"
                 "Limit the image size to width 1000px"
             ]
         }
