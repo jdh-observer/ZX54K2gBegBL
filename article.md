@@ -291,7 +291,7 @@ Because harmonization, temporal normalization, and spatialization are interpreti
 Manual audit is an integral stage of the workflow. Audit decisions document whether a record is retained or excluded from the core dataset, the reasons for exclusion where applicable, and the basis on which spatial or temporal precision is assigned or withheld. Some entries are intentionally retained without spatial or temporal resolution, allowing historically meaningful mentions to remain visible without being coerced into cartographic form. Audit decisions are entered during review and stored in the evidence log; the scripts only scaffold the fields and validate consistency.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-schema-*"] jdh={"module": "object", "object": {"source": ["Evidence log schema"]}} 
+```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-schema-*"] jdh={"module": "object", "object": {"source": ["Evidence log schema"]}}
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 3. Evidence log schema.xlsx")
