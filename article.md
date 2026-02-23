@@ -210,7 +210,7 @@ Automated geocoding is understood as a provisional operation. Geocoding failures
 Convergence is recorded as evidentiary reinforcement (e.g., multi-source candidate status) rather than merged into a single record at the data-construction stage.
 <!-- #endregion -->
 
-<!-- #region slideshow={"slide_type": ""} tags=["hermeneutics", "table-Spatialization-logic-*"] jdh={"module": "object", "object": {"source": ["Spatialization logic"]}} -->
+<!-- #region slideshow={"slide_type": ""} tags=["hermeneutics", "table-Spatialization-logic-*"] jdh={"module": "object", "object": {"source": [" Spatialization logic"]}} -->
 Raw location form | Precision class | Geocoded? | Geometry generated | Evidentiary status
 ---|---|---|---|---
 Full street address | point | Yes | Yes (point) | Addressable
