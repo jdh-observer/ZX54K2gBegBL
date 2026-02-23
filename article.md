@@ -312,7 +312,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Spatial-Precision Rubric"
+            "source": ["Spatial-Precision Rubric",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -426,7 +426,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Overlay montage of sketch-map layers"
+            "source": ["Overlay montage of sketch-map layers",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -455,7 +455,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Sample coded transcript excerpt"
+            "source": ["Sample coded transcript excerpt",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -497,7 +497,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Decade timeline view of the compiled corpus"
+            "source": ["Decade timeline view of the compiled corpus",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -515,7 +515,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Cross-source overlap of address-based entries by decade"
+            "source": ["Cross-source overlap of address-based entries by decade",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -533,7 +533,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["1930s-1940s Manhattan North cluster evidence mechanism highlight"
+            "source": ["1930s-1940s Manhattan North cluster evidence mechanism highlight",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -575,7 +575,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Mapped spatial precision by decade.png"
+            "source": ["Mapped spatial precision by decade.png",
                 "Limit the image size to width 1000px"
             ]
         }
@@ -593,7 +593,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Unmapped entries by decade (split by source)"
+            "source": ["Unmapped entries by decade (split by source)",
                 "Limit the image size to width 1000px"
             ]
         }
