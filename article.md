@@ -312,7 +312,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Spatial Precision Rubric"
+            "source": ["Spatial-Precision Rubric"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -490,14 +490,14 @@ A concrete example is Manhattan North. Across the decade-sliced maps, Manhattan 
 Read across the corpus, clustering is best interpreted as the intersection of urban social concentration and documentary concentration. In this sense, the maps are used to compare evidence conditions as much as to infer spatial concentration.
 <!-- #endregion -->
 
-```python tags=["figure-dacade-timeline-view-of-the-compiled-corpus-*"]
+```python tags=["figure-decade-timeline-view-of-the-compiled-corpus-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Decade timeline view of the compiled corpus"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -515,7 +515,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Cross-source overlap of address-based entries by decade"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -533,7 +533,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["1930s-1940s Manhattan North cluster evidence mechanism highlight"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -575,7 +575,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Mapped spatial precision by decade.png"
                 "Limit the image size to width 1000px"
             ]
         }
@@ -593,7 +593,7 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": [
+            "source": ["Unmapped entries by decade (split by source)"
                 "Limit the image size to width 1000px"
             ]
         }
