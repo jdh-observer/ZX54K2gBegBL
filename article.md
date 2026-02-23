@@ -109,7 +109,7 @@ The address-based spatial corpus is compiled from three New York City–focused 
 Bringing these sources into a shared corpus requires harmonization and spatialization decisions that affect what becomes comparable across decades. These operations are treated as part of the article’s evidentiary stance: they make visible how documentary claims are assembled for mapping.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} jdh={"module": "object", "object": {"source": ["Source overview"]}} tags=["table-Source-overview-*"]
+```python jdh={"module": "object", "object": {"source": ["Source overview"]}} slideshow={"slide_type": ""} tags=["table-Source-overview-*"]
 import pandas as pd
 df = pd.read_excel("./data/Table 1. Source overview.xlsx")
 df
