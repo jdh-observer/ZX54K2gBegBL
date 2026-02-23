@@ -441,7 +441,7 @@ display(Image("./data/Figure 2. Overlay montage of sketch-map layers.png", width
 These interview and drawing materials were generated as part of a graduate-level course project completed prior to manuscript preparation. The present article is based on secondary analysis of these materials, and no new participant recruitment or data collection was conducted for this publication. Participants were informed of the project’s purpose and the voluntary nature of participation, and agreed to recording and use of de-identified excerpts. To reduce identification and spatial risks, place references are generalized and sketch maps are treated as interpretive traces rather than locational claims. Original recordings and full transcripts are not publicly released.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Episode-level-codebook-*"] jdh={"module": "object", "object": {"source": ["Sample coded transcript excerpt"]}}
+```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Episode-level-codebook-*"] jdh={"module": "object", "object": {"source": ["Episode-level Codebook (Interviews + Sketch Maps)"]}}
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 5. Episode-level Codebook (Interviews + Sketch Maps).xlsx")
