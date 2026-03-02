@@ -1,6 +1,7 @@
 ---
 jupyter:
   jupytext:
+    formats: ipynb,md
     text_representation:
       extension: .md
       format_name: markdown
@@ -108,7 +109,7 @@ The address-based spatial corpus is compiled from three New York City–focused 
 Bringing these sources into a shared corpus requires harmonization and spatialization decisions that affect what becomes comparable across decades. These operations are treated as part of the article’s evidentiary stance: they make visible how documentary claims are assembled for mapping.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["table-Source-overview-*"]
+```python jdh={"module": "object", "object": {"source": ["Source overview"]}} slideshow={"slide_type": ""} tags=["table-Source-overview-*"]
 import pandas as pd
 df = pd.read_excel("./data/Table 1. Source overview.xlsx")
 df
@@ -150,7 +151,7 @@ Records from different sources are harmonized through a small set of shared fiel
 Temporal information is normalized to a decade scale based on structured fields such as reported decades, start and end years, or bounded date ranges. This normalization supports a timeline-based reading that foregrounds documentary rhythm and density rather than smoothing temporal uncertainty into falsely precise year-level claims. Where no structured temporal signal is available, time precision is explicitly marked as missing rather than inferred from narrative description. 
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["table-Harmonized-field-dictionary-*", "data-table", "hermeneutics"]
+```python jdh={"module": "object", "object": {"source": ["Harmonized field dictionary"]}} slideshow={"slide_type": ""} tags=["table-Harmonized-field-dictionary-*", "data-table", "hermeneutics"]
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 2. Harmonized field dictionary.xlsx")
@@ -209,7 +210,7 @@ Automated geocoding is understood as a provisional operation. Geocoding failures
 Convergence is recorded as evidentiary reinforcement (e.g., multi-source candidate status) rather than merged into a single record at the data-construction stage.
 <!-- #endregion -->
 
-<!-- #region slideshow={"slide_type": ""} tags=["hermeneutics", "table-Spatialization-logic-*"] -->
+<!-- #region jdh={"module": "object", "object": {"source": [" Spatialization logic"]}} slideshow={"slide_type": ""} tags=["hermeneutics", "table-Spatialization-logic-*"] -->
 Raw location form | Precision class | Geocoded? | Geometry generated | Evidentiary status
 ---|---|---|---|---
 Full street address | point | Yes | Yes (point) | Addressable
@@ -290,21 +291,21 @@ Because harmonization, temporal normalization, and spatialization are interpreti
 Manual audit is an integral stage of the workflow. Audit decisions document whether a record is retained or excluded from the core dataset, the reasons for exclusion where applicable, and the basis on which spatial or temporal precision is assigned or withheld. Some entries are intentionally retained without spatial or temporal resolution, allowing historically meaningful mentions to remain visible without being coerced into cartographic form. Audit decisions are entered during review and stored in the evidence log; the scripts only scaffold the fields and validate consistency.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-schema-*"]
+```python jdh={"module": "object", "object": {"source": ["Evidence log schema"]}} slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-schema-*"]
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 3. Evidence log schema.xlsx")
 df
 ```
 
-```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-sample-rows-*"]
+```python jdh={"module": "object", "object": {"source": ["Evidence log sample rows"]}} slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Evidence-log-sample-rows-*"]
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 4. Evidence log sample rows.xlsx")
 df
 ```
 
-```python tags=["figure-Spatial-Precision-rubic-*", "hermeneutics"]
+```python tags=["figure-Spatial-Precision-Rubric-*", "hermeneutics"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -312,7 +313,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Spatial-Precision Rubric"
             ]
         }
     }
@@ -418,7 +419,7 @@ In addition to address-based records, the project incorporates a participant-gen
 Interview transcripts were segmented into discrete episodes and coded for recurring spatial practices and tactics, including access strategies, comfort calibration, risk management, and recognition cues. Cross-case comparison was conducted at the episode level to identify both recurring motifs and context-specific practices. Sketch maps were treated as image-based corroboration rather than coordinate evidence. Drawings were digitized and overlaid at a broad, non-precise scale to surface shared emphases and relational clusters. These materials are read in parallel with the address-based corpus, providing a second register of evidence that foregrounds lived spatial knowledge, memory, and tactic, without requiring that such knowledge be stabilized as an addressable site.
 <!-- #endregion -->
 
-```python tags=["figure-overlay-montage-of-sketch-map-layers-*"]
+```python tags=["figure-Overlay-montage-of-sketch-map-layers-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -426,7 +427,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Overlay montage of sketch-map layers"
             ]
         }
     }
@@ -440,7 +441,7 @@ display(Image("./data/Figure 2. Overlay montage of sketch-map layers.png", width
 These interview and drawing materials were generated as part of a graduate-level course project completed prior to manuscript preparation. The present article is based on secondary analysis of these materials, and no new participant recruitment or data collection was conducted for this publication. Participants were informed of the project’s purpose and the voluntary nature of participation, and agreed to recording and use of de-identified excerpts. To reduce identification and spatial risks, place references are generalized and sketch maps are treated as interpretive traces rather than locational claims. Original recordings and full transcripts are not publicly released.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Episode-level-codebook-*"]
+```python jdh={"module": "object", "object": {"source": ["Episode-level Codebook (Interviews + Sketch Maps)"]}} slideshow={"slide_type": ""} tags=["data-table", "hermeneutics", "table-Episode-level-codebook-*"]
 # pandas package needs to be added to the requirements.txt 's file 
 import pandas as pd
 df = pd.read_excel("./data/Table 5. Episode-level Codebook (Interviews + Sketch Maps).xlsx")
@@ -455,7 +456,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Sample coded transcript excerpt"
             ]
         }
     }
@@ -489,7 +490,7 @@ A concrete example is Manhattan North. Across the decade-sliced maps, Manhattan 
 Read across the corpus, clustering is best interpreted as the intersection of urban social concentration and documentary concentration. In this sense, the maps are used to compare evidence conditions as much as to infer spatial concentration.
 <!-- #endregion -->
 
-```python tags=["figure-dacade-timeline-view-of-the-compiled-corpus-*"]
+```python tags=["figure-decade-timeline-view-of-the-compiled-corpus-*"]
 from IPython.display import Image, display
 metadata = {
     "jdh": {
@@ -497,7 +498,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Decade timeline view of the compiled corpus"
             ]
         }
     }
@@ -515,7 +516,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Cross-source overlap of address-based entries by decade"
             ]
         }
     }
@@ -533,7 +534,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "1930s-1940s Manhattan North cluster evidence mechanism highlight"
             ]
         }
     }
@@ -575,7 +576,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Mapped spatial precision by decade.png"
             ]
         }
     }
@@ -593,7 +594,7 @@ metadata = {
         "object": {
             "type": "image",
             "source": [
-                "Limit the image size to width 1000px"
+                "Unmapped entries by decade (split by source)"
             ]
         }
     }
