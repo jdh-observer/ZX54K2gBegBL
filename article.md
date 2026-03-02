@@ -312,7 +312,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Spatial-Precision Rubric"
+            "source": [
+                "Spatial-Precision Rubric"
             ]
         }
     }
@@ -425,7 +426,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Overlay montage of sketch-map layers"
+            "source": [
+                "Overlay montage of sketch-map layers"
             ]
         }
     }
@@ -453,7 +455,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Sample coded transcript excerpt"
+            "source": [
+                "Sample coded transcript excerpt"
             ]
         }
     }
@@ -494,7 +497,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Decade timeline view of the compiled corpus"
+            "source": [
+                "Decade timeline view of the compiled corpus"
             ]
         }
     }
@@ -511,7 +515,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Cross-source overlap of address-based entries by decade"
+            "source": [
+                "Cross-source overlap of address-based entries by decade"
             ]
         }
     }
@@ -528,7 +533,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["1930s-1940s Manhattan North cluster evidence mechanism highlight"
+            "source": [
+                "1930s-1940s Manhattan North cluster evidence mechanism highlight"
             ]
         }
     }
@@ -569,7 +575,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Mapped spatial precision by decade.png"
+            "source": [
+                "Mapped spatial precision by decade.png"
             ]
         }
     }
@@ -586,7 +593,8 @@ metadata = {
         "module": "object",
         "object": {
             "type": "image",
-            "source": ["Unmapped entries by decade (split by source)"
+            "source": [
+                "Unmapped entries by decade (split by source)"
             ]
         }
     }
