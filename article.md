@@ -162,7 +162,7 @@ df
 The full harmonization workflow is provided in the repository. The core temporal normalization logic is excerpted below.
 <!-- #endregion -->
 
-```python slideshow={"slide_type": ""} tags=["Code-Harmonization-script-*", "hermeneutics"]
+```python slideshow={"slide_type": ""} tags=["hermeneutics"]
 def finalize_decades_and_basis(
     reported_decades: pd.Series,
     derived_decades: pd.Series,
